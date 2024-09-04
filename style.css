@@ -1,4 +1,4 @@
-.homebody {
+.homebodymain {
   /*body for mainpage*/
   background-color: white;
   font-family: sans-serif;
@@ -7,59 +7,69 @@
   background-position: 85% -60%;
   display: fixed;
   margin: auto;
+}
 
-  .nav {
-    /*nav bar - aiming to make it horizontal across the top with individual placement in different places */
-    list-style: none;
-    width: 100%;
-  }
+.homebody {
+  /*body for other pages*/
+  background-color: white;
+  font-family: sans-serif;
+  display: fixed;
+  margin: auto;
+}
 
-  .mainnavbar {
-    /*code for Nav bar code for making a list*/
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-  }
+.nav {
+  /*nav bar - aiming to make it horizontal across the top with individual placement in different places */
+  list-style: none;
+  width: 100%;
+}
 
-  .mainnavlink {
-    /*changing font size for main list so it stands out more*/
-    font-size: larger;
-    /* pointer-events: none; */
-  }
+.mainnavbar {
+  /*code for Nav bar code for making a list*/
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
 
-  li {
-    /*code for Nav bar elements in my list */
-    margin: 1%;
-    width: 10%;
-    display: inline-block;
-  }
-  a {
-    /*code for Nav bar making the individual elements in the list look nice also setting up for the transition effect*/
-    font-size: 100%;
-    padding: 5%;
-    color: rgb(126, 193, 215);
-    text-decoration: none;
-    background-image: linear-gradient(lightblue, lightblue);
-    background-repeat: no-repeat;
-    background-size: 100% 0;
-    transition: 1s;
-  }
+.mainnavlink {
+  /*changing font size for main list so it stands out more*/
+  font-size: larger;
+  /* pointer-events: none; */
+}
 
-  a:hover {
-    /*code for Nav bar when hover over a list changes the color of the writing - and highlights slowly*/
-    color: black;
-    background-size: 100% 100%;
-  }
+li {
+  /*code for Nav bar elements in my list */
+  margin: 1%;
+  width: 10%;
+  display: inline-block;
+}
+a {
+  /*code for Nav bar making the individual elements in the list look nice also setting up for the transition effect*/
+  font-size: 100%;
+  padding: 5%;
+  color: rgb(126, 193, 215);
+  text-decoration: none;
+  background-image: linear-gradient(lightblue, lightblue);
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  transition: 1s;
+}
+
+a:hover {
+  /*code for Nav bar when hover over a list changes the color of the writing - and highlights slowly*/
+  color: black;
+  background-size: 100% 100%;
 }
 
 .title {
+  /* putting the title in the center */
   font-size: 3rem;
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
 }
 .intro {
+  /* tagline for the page need to restyle but placeholder atm */
   font-family: Helvetica;
   font-size: larger;
   padding-left: 10%;
@@ -67,31 +77,100 @@
 }
 
 .mainlinks {
-  background: yellowgreen;
+  /* parent for the grid */
+  /* background-color: aqua; */
   display: grid;
   margin-left: 10%;
   margin-right: 40%;
-  padding: 10%;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px;
+  padding-left: 17%;
+  /* padding-top: 3%; */
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px;
   column-gap: 20px;
   row-gap: 20px;
 }
 
 .image1 {
-  background-image: none;
+  /* placement and size for image1 */
+  opacity: 1;
 }
-
+.image1:hover {
+  /* hover effect for image1 */
+  opacity: 0.5;
+}
+.button1 {
+  /* button to take user to a different page */
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  opacity: 0;
+}
 .image2 {
+  /* placement and size for image2 */
+
+  opacity: 1;
   grid-column: 2/3;
+}
+.image2:hover {
+  /* hover effect for image2 */
+
+  opacity: 1;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.button2 {
+  /* button to take user to a different page */
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  opacity: 0;
 }
 
 .image3 {
+  /* hover effect for image3 */
+
+  opacity: 1;
   grid-column: 1/2;
   grid-row: 2/3;
 }
+.image3:hover {
+  /* hover effect for image3 */
+
+  opacity: 0.5;
+  cursor: pointer;
+}
+.button3 {
+  /* button to take user to a different page */
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  opacity: 0;
+}
 
 .image4 {
+  /* hover effect for image3 */
+
+  opacity: 1;
   grid-column: 2/3;
   grid-row: 2/3;
+}
+.image4:hover {
+  /* hover effect for image4 */
+
+  opacity: 0.5;
+  cursor: pointer;
+}
+.button4 {
+  /* button to take user to a different page */
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  opacity: 0;
 }
