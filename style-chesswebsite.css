@@ -1,0 +1,97 @@
+.homebody {
+  /*body for mainpage*/
+  background-color: white;
+  font-family: sans-serif;
+  background-image: url(https://i.pinimg.com/originals/de/9d/2a/de9d2a0d402ea721609448607207e1bc.jpg);
+  background-repeat: no-repeat;
+  background-position: 85% -60%;
+  display: fixed;
+  margin: auto;
+
+  .nav {
+    /*nav bar - aiming to make it horizontal across the top with individual placement in different places */
+    list-style: none;
+    width: 100%;
+  }
+
+  .mainnavbar {
+    /*code for Nav bar code for making a list*/
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mainnavlink {
+    /*changing font size for main list so it stands out more*/
+    font-size: larger;
+    /* pointer-events: none; */
+  }
+
+  li {
+    /*code for Nav bar elements in my list */
+    margin: 1%;
+    width: 10%;
+    display: inline-block;
+  }
+  a {
+    /*code for Nav bar making the individual elements in the list look nice also setting up for the transition effect*/
+    font-size: 100%;
+    padding: 5%;
+    color: rgb(126, 193, 215);
+    text-decoration: none;
+    background-image: linear-gradient(lightblue, lightblue);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    transition: 1s;
+  }
+
+  a:hover {
+    /*code for Nav bar when hover over a list changes the color of the writing - and highlights slowly*/
+    color: black;
+    background-size: 100% 100%;
+  }
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.intro {
+  font-family: Helvetica;
+  font-size: larger;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mainlinks {
+  background: yellowgreen;
+  display: grid;
+  margin-left: 10%;
+  margin-right: 40%;
+  padding: 10%;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.image1 {
+  background-image: none;
+}
+
+.image2 {
+  grid-column: 2/3;
+}
+
+.image3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.image4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
