@@ -2,9 +2,9 @@
   /*body for mainpage*/
   background-color: white;
   font-family: sans-serif;
-  background-image: url(https://i.pinimg.com/originals/de/9d/2a/de9d2a0d402ea721609448607207e1bc.jpg);
+  /* background-image: url(https://i.pinimg.com/originals/de/9d/2a/de9d2a0d402ea721609448607207e1bc.jpg);
   background-repeat: no-repeat;
-  background-position: 85% -60%;
+  background-position: 85% -60%; */
   display: fixed;
   margin: auto;
 }
@@ -173,4 +173,17 @@ a:hover {
   display: block;
   cursor: pointer;
   opacity: 0;
+}
+
+.ChessPawn {
+  /* of main page image*/
+  position: relative;
+  bottom: 70%;
+  left: 110%;
+  z-index: -1;
+}
+
+.blog1 {
+  padding-left: 10%;
+  padding-right: 10%;
 }
