@@ -184,6 +184,67 @@ a:hover {
 }
 
 .blog1 {
+  /* div class for 1st blog on page  */
+  display: absloute;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.picture1 {
+  /* picture for first blog */
+  background-color: green;
+  float: left;
+  height: 250px;
+  width: 235px;
+}
+
+.title1 {
+  /* title and info */
+  padding-left: 20%;
+  float: center;
+  background-color: aqua;
+}
+.blog2 {
+  /* div class for 2nd blog on page  */
+  padding-left: 10%;
+  padding-right: 10%;
+  display: absloute;
+  margin-top: 10%;
+}
+
+.picture2 {
+  /* picture for second blog */
+  background-color: green;
+  height: 250px;
+  width: 235px;
+  float: left;
+}
+
+.title2 {
+  /* title and info */
+  padding-left: 20%;
+  background-color: aqua;
+  float: center;
+}
+.blog3 {
+  /* div class for 3rd blog on page  */
+  padding-left: 10%;
+  padding-right: 10%;
+  display: absloute;
+  margin-top: 10%;
+}
+
+.picture3 {
+  /* picture for third blog */
+  background-color: green;
+  height: 250px;
+  width: 235px;
+  float: left;
+}
+
+.title3 {
+  /* title and info */
+  padding-left: 20%;
+  background-color: aqua;
+  float: center;
 }
