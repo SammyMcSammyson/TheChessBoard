@@ -1,7 +1,7 @@
 .homebodymain {
   /*body for mainpage*/
   background-color: white;
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   /* background-image: url(https://i.pinimg.com/originals/de/9d/2a/de9d2a0d402ea721609448607207e1bc.jpg);
   background-repeat: no-repeat;
   background-position: 85% -60%; */
@@ -12,7 +12,7 @@
 .homebody {
   /*body for other pages*/
   background-color: white;
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   display: fixed;
   margin: auto;
 }
@@ -61,17 +61,108 @@ a:hover {
   background-size: 100% 100%;
 }
 
-.title {
-  /* putting the title in the center */
-  font-size: 3rem;
+h1 {
+  /* code for placement of H1 */
+  margin-left: 10%;
+}
+.mainDiv {
+  /* master div for main page */
+  display: flex;
+  margin-left: 15rem;
+}
+
+.polaroid {
+  /* code for the poloroid */
+  background-color: lightblue;
+  padding: 1rem 1rem 1rem;
+  box-shadow: 5px 7px 4px #888888;
+}
+
+img {
+  /* code for the image */
+  width: 19rem;
+}
+
+.meDescription {
+  /* description for the poloroid image */
+  font-family: 'Permanent Marker', cursive;
+  font-size: small;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  color: #000;
+  overflow-wrap: break-word;
+}
+.filmStrip {
+  /* border for the tex */
+  width: 50%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border: 10px solid lightblue;
+  margin: 1rem 1rem 1rem;
+  box-shadow: 5px 7px 4px #888888;
+  word-wrap: break-word;
 }
 .intro {
-  /* tagline for the page need to restyle but placeholder atm */
-  font-family: Helvetica;
-  font-size: larger;
+  /* where the text on first page goes  */
+  font-family: 'Courier New', Courier, monospace;
   padding-left: 10%;
   padding-right: 10%;
+  /* padding-top: 2%; */
+  color: black;
+  font-size: 24px;
+}
+
+.meSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  width: calc(60% - 20px);
+  margin: 10px;
+  background-color: lightgreen;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.right {
+  background-color: blue;
+
+  /* position: relative;
+  left: 150%; */
+}
+
+@media (max-width: 320px) {
+  /* iPhone, portrait 480x320 */
+  .right {
+    position: relative;
+    left: 0%;
+  }
+}
+@media (max-width: 481px) {
+  .right {
+    position: relative;
+    left: 0%;
+  }
+  /*smaller tablets */
+}
+@media (max-width: 641px) {
+  .right {
+    position: relative;
+    left: 0%;
+  }
+  /*portrait iPad */
+}
+@media (max-width: 961px) {
+  /*landscape iPad */
+  .right {
+    position: relative;
+    left: 0%;
+  }
+}
+
+@media (max-width: 1025px) {
+  /*laptops */
+}
+@media (max-width: 1281px) {
+  /* desktops */
 }
