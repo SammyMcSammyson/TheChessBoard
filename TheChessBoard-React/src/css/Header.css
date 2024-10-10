@@ -1,0 +1,79 @@
+* {
+  margin: 0.1rem !important;
+  padding: 0 !important;
+}
+
+.nav {
+  /*nav bar - aiming to make it horizontal across the top with individual placement in different places */
+  list-style: none;
+}
+
+.mainnavbar {
+  /*code for Nav bar code for making a list*/
+  /* display: flex;
+  justify-content: space-evenly; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-size: 18px;
+}
+
+.mainnavlink {
+  /*changing font size for main list so it stands out more*/
+  font-size: 36px;
+  color: orangered;
+  /* pointer-events: none; */
+}
+
+li {
+  list-style: none;
+  /*code for Nav bar elements in my list */
+}
+a {
+  /*code for Nav bar making the individual elements in the list look nice also setting up for the transition effect*/
+  color: rgb(126, 193, 215);
+  text-decoration: none;
+  background-image: linear-gradient(lightblue, lightblue);
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  transition: 0.5s;
+}
+
+a:hover {
+  /*code for Nav bar when hover over a list changes the color of the writing - and highlights slowly*/
+  color: orangered;
+  cursor: pointer;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 320px) {
+  /* iPhone, portrait 480x320 */
+  .mainnavbar {
+    font-size: 12px;
+  }
+}
+@media (max-width: 481px) {
+  /*smaller tablets */
+  .mainnavbar {
+    font-size: 12px;
+  }
+  .mainnavlink {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 641px) {
+  /*portrait iPad */
+}
+@media (max-width: 961px) {
+  /*landscape iPad */
+}
+
+@media (max-width: 1025px) {
+  /*laptops */
+}
+@media (max-width: 1281px) {
+  /* desktops */
+}
