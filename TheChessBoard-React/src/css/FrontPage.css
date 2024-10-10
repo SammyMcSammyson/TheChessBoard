@@ -1,37 +1,59 @@
 .mainDiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .introDiv {
   /* master div for main page */
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
+  border: 7px solid;
+  border-color: lightblue;
+  text-align: left;
+  background-color: lightblue;
+  box-shadow: 5px 7px 4px #888888;
+  position: relative;
+  top: 1rem;
+}
+
+.introDiv::after {
+  /* Tape strip effect */
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  background-color: #f0e68c;
+  transform: translateX(-50%);
 }
 
 .Intro {
   /* border for the tex */
   width: 220px;
   height: auto;
-  background-color: rgb(255, 255, 255);
-  border: 10px solid lightblue;
-  margin: 1rem 1rem 1rem;
-  box-shadow: 5px 7px 4px #888888;
   word-wrap: break-word;
-  text-align: center;
+}
+
+.pictureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
 }
 
 .pictureDiv {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
+  position: relative;
+  top: 15rem;
 }
-
 .polaroid {
   /* code for the poloroid */
   position: absolute;
@@ -40,6 +62,25 @@
   padding: 1rem 1rem 1rem;
   box-shadow: 5px 7px 4px #888888;
   font-family: 'Permanent Marker', cursive;
+}
+
+.second {
+  top: 15rem;
+}
+
+.third {
+  top: 35rem;
+}
+
+.polaroid::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  background-color: #f0e68c; /* Tape strip effect */
+  transform: translateX(-50%);
 }
 
 img {
@@ -55,6 +96,7 @@ img {
   text-align: center;
   color: #000;
   overflow-wrap: break-word;
+  background-color: lightblue;
 }
 
 .Intro1 {
@@ -68,4 +110,132 @@ img {
   background-color: lightblue;
   word-wrap: break-word;
   font-size: 16px;
+}
+
+.Intro2 {
+  /* second intro */
+  position: absolute;
+  text-align: center;
+  height: 16rem;
+  width: 230px;
+  bottom: 0rem;
+  left: 0.4rem;
+  background-color: lightblue;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+.Intro3 {
+  /* second intro */
+  position: absolute;
+  text-align: center;
+  height: 20rem;
+  width: 230px;
+  bottom: 0rem;
+  left: 0.4rem;
+  background-color: lightblue;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+@media (max-width: 320px) {
+  /* iPhone, portrait 480x320 */
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+@media (min-width: 321px) and (max-width: 481px) {
+  /*smaller tablets */
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+@media (min-width: 482px) and (max-width: 641px) {
+  /*portrait iPad */
+  .introDiv .Intro {
+    width: 400px;
+  }
+
+  .pictureDiv {
+    top: 20rem;
+    left: -5rem;
+  }
+  .secondDiv {
+    top: 12rem;
+    left: -18rem;
+  }
+
+  .thirdDiv {
+    top: 6rem;
+    left: -10 rem;
+  }
+}
+@media (min-width: 642px) and (max-width: 961px) {
+  /*landscape iPad */
+  .introDiv .Intro {
+    width: 400px;
+  }
+
+  .pictureDiv {
+    top: 20rem;
+    left: -5rem;
+  }
+  .secondDiv {
+    top: 12rem;
+    left: -18rem;
+  }
+
+  .thirdDiv {
+    top: 6rem;
+    left: -10 rem;
+  }
+}
+
+@media (min-width: 962px) and (max-width: 1025px) {
+  /*laptops */
+  .introDiv .Intro {
+    width: 400px;
+  }
+
+  .pictureDiv {
+    top: 20rem;
+    left: -5rem;
+  }
+  .secondDiv {
+    top: 12rem;
+    left: -18rem;
+  }
+
+  .thirdDiv {
+    top: 6rem;
+    left: -10 rem;
+  }
+}
+@media (min-width: 1026px) {
+  /* desktops */
+  .introDiv .Intro {
+    width: 400px;
+  }
+
+  .pictureDiv {
+    top: 20rem;
+    left: -5rem;
+  }
+  .secondDiv {
+    top: 12rem;
+    left: -18rem;
+  }
+
+  .thirdDiv {
+    top: 6rem;
+    left: -10 rem;
+  }
 }

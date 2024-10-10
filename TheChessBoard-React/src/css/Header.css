@@ -1,11 +1,13 @@
 * {
   margin: 0.1rem !important;
   padding: 0 !important;
+  background-color: #f7f7f7;
 }
 
 .nav {
   /*nav bar - aiming to make it horizontal across the top with individual placement in different places */
   list-style: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .mainnavbar {

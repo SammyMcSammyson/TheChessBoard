@@ -1,0 +1,163 @@
+.design-section {
+  position: absolute;
+  top: 5rem;
+  left: 50%; /* Center the line horizontally */
+  transform: translateX(-50%);
+  width: 4px; /* Line thickness */
+  height: 600vh; /* Full viewport height */
+  background-color: orangered; /* Line color */
+  z-index: 1; /* Ensure it stays above other content */
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the circle on the line */
+  width: 20px; /* Circle width */
+  height: 20px; /* Circle height */
+  background-color: orangered; /* Circle color */
+  border-radius: 50%; /* Make the shape a circle */
+  z-index: 2; /* Ensure circles are above the line */
+}
+.containerBio {
+  margin-bottom: 0;
+}
+.HowIBecameMeTitle {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.left {
+  right: 10rem;
+  top: 4rem;
+}
+
+.right {
+  top: -5.5rem;
+  left: 1.5rem;
+}
+
+.polaroid {
+  /* code for the poloroid */
+  position: relative;
+  width: 135px;
+  top: 2rem;
+  background-color: lightblue;
+  padding: 1rem;
+  box-shadow: 5px 7px 4px #888888;
+  font-family: 'Permanent Marker', cursive;
+  margin-bottom: 0;
+}
+
+.HowIBecameMeImg {
+  width: 120px;
+}
+
+.HowIBecameMeParagraph {
+  position: relative;
+  text-align: left;
+  top: -11rem;
+  font-family: 'Courier New', Courier, monospace;
+  width: 135px;
+  background-color: lightblue;
+  word-wrap: break-word;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.HowIBecameMeParagraph::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  background-color: #f0e68c; /* Tape strip effect */
+  transform: translateX(-50%);
+}
+
+@media (max-width: 320px) {
+  /* iPhone, portrait 480x320 */
+}
+@media (min-width: 321px) and (max-width: 481px) {
+  /*smaller tablets */
+}
+@media (min-width: 482px) and (max-width: 641px) {
+  /*portrait iPad */
+
+  .polaroid {
+    /* code for the poloroid */
+    width: 200px;
+    top: 5rem;
+  }
+  .HowIBecameMeParagraph {
+    width: 200px;
+  }
+  .HowIBecameMeImg {
+    width: 180px;
+  }
+  .left {
+    right: 15rem;
+  }
+  .design-section {
+    height: 500vh; /* Full viewport height */
+  }
+}
+@media (min-width: 642px) and (max-width: 961px) {
+  /*landscape iPad */
+  .polaroid {
+    /* code for the poloroid */
+    width: 200px;
+    top: 5rem;
+  }
+  .HowIBecameMeParagraph {
+    width: 200px;
+  }
+  .HowIBecameMeImg {
+    width: 180px;
+  }
+  .left {
+    right: 15rem;
+  }
+  .design-section {
+    height: 500vh; /* Full viewport height */
+  }
+}
+
+@media (min-width: 962px) and (max-width: 1025px) {
+  /*laptops */
+  .polaroid {
+    /* code for the poloroid */
+    width: 400px;
+    top: 5rem;
+  }
+  .HowIBecameMeParagraph {
+    width: 400px;
+  }
+  .HowIBecameMeImg {
+    width: 385px;
+  }
+  .left {
+    right: 28rem;
+  }
+  .design-section {
+    height: 800vh; /* Full viewport height */
+  }
+}
+@media (min-width: 1026px) {
+  /* desktops */
+  .polaroid {
+    /* code for the poloroid */
+    width: 400px;
+    top: 5rem;
+  }
+  .HowIBecameMeParagraph {
+    width: 400px;
+  }
+  .HowIBecameMeImg {
+    width: 385px;
+  }
+  .left {
+    right: 28rem;
+  }
+}
