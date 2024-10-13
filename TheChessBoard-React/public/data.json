@@ -4,76 +4,87 @@
     "caption": "Born <br> Aug 97",
     "description": "I was Born.                                               I generally consider this the biggest mistake of my life since it has caused me nothing but pain and suffering.",
     "alignment": "left",
-    "alignment1": "right"
+    "alignment1": "right",
+    "className": "pone"
   },
   {
     "imgSrc": "buisness",
     "caption": "Start playing Chess <br>  Sept 01",
     "description": "First time I started playing Chess and I never really stopped. Still absolutely shit though...",
     "alignment": "right",
-    "alignment1": "left"
+    "alignment1": "left",
+    "className": "ptwo"
   },
   {
     "imgSrc": "school",
     "caption": "Secondary School <br>  Sep 08",
     "description": "Started Secondary school, learnt some stuff, made some friends, did not die. Overall I rate it as a success.",
     "alignment": "left",
-    "alignment1": "right"
+    "alignment1": "right",
+    "className": "pthree"
   },
   {
     "imgSrc": "divorce",
     "caption": "Parents Divorce <br> Dec 12",
     "description": "It was a long time coming but decided to make it official just after Christmas - FYI to any parents who are reading this, it is a great way to make your kids hate Christmas.",
     "alignment": "right",
-    "alignment1": "left"
+    "alignment1": "left",
+    "className": "pfour"
   },
   {
     "imgSrc": "Watermelon",
     "caption": "Dad is diagnosed with Cancer - I also wrote a song<br>  Nov 13",
     "description": "If you smoke and drink heavily for 40 years this tends to happen. Definition of \"Fuck around and find out.\"",
     "alignment": "left",
-    "alignment1": "right"
+    "alignment1": "right",
+    "className": "pfive"
   },
   {
     "imgSrc": "Amsterdam",
     "caption": "Start at Glasgow University - No clue what happened <br> Sep 15",
     "description": "Furthest place away from Loughborough that would accept me.",
     "alignment": "right",
-    "alignment1": "left"
+    "alignment1": "left",
+    "className": "psix"
   },
   {
     "imgSrc": "Vimal",
     "caption": "Dad passes away <br> Nov 15",
     "description": "Bit shit",
     "alignment": "left",
-    "alignment1": "right"
+    "alignment1": "right",
+    "className": "pseven"
   },
   {
     "imgSrc": "Uni",
     "caption": "Drop out of Uni <br> Nov 18",
     "description": "Best decision of my life - I hated my degree and went for all the wrong reasons.",
     "alignment": "right",
-    "alignment1": "left"
+    "alignment1": "left",
+    "className": "peight"
   },
   {
     "imgSrc": "tea",
     "caption": "Did *something* in London <br> Nov 18 - Dec 19",
     "description": "Had a blast. Also I love Infernos.",
     "alignment": "left",
-    "alignment1": "right"
+    "alignment1": "right",
+    "className": "pnine"
   },
   {
     "imgSrc": "house",
     "caption": "Become a British Army Officer - and somehow end up living here <br> Jan 20",
     "description": "It was emotional, met some cool people and some really shit people.",
     "alignment": "right",
-    "alignment1": "left"
+    "alignment1": "left",
+    "className": "pten"
   },
   {
     "imgSrc": "me",
     "caption": "Leave the Regular Army <br>  July 24",
     "description": "\"I'm not saying your job is boring, but changing the Sharepoint page was the most exciting thing to happen to you all year.\" — Major **** 32 Engr Regt",
     "alignment": "left",
-    "alignment1": "right"
+    "alignment1": "right",
+    "className": "peleven"
   }
 ]

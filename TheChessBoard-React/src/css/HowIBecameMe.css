@@ -69,6 +69,26 @@ img {
   font-size: 16px;
   margin-bottom: 0;
 }
+.pone {
+  top: -6.5rem;
+}
+.ptwo {
+  top: -6.5rem;
+}
+.pfive {
+  top: -8rem;
+}
+
+.pseven {
+  top: -10rem;
+}
+
+.pnine {
+  top: -8.5rem;
+}
+.pten {
+  top: -8.5rem;
+}
 
 .HowIBecameMeParagraph::after {
   content: '';
@@ -97,7 +117,29 @@ img {
   }
   .HowIBecameMeParagraph {
     width: 200px;
+    top: -11rem;
   }
+  .pone {
+    top: -6.5rem;
+  }
+  .ptwo {
+    top: -6.5rem;
+  }
+  .pfive {
+    top: -8rem;
+  }
+
+  .pseven {
+    top: -10rem;
+  }
+
+  .pnine {
+    top: -8.5rem;
+  }
+  .pten {
+    top: -8.5rem;
+  }
+
   .HowIBecameMeImg {
     width: 180px;
   }
@@ -117,7 +159,29 @@ img {
   }
   .HowIBecameMeParagraph {
     width: 200px;
+    top: -11rem;
   }
+  .pone {
+    top: -6.5rem;
+  }
+  .ptwo {
+    top: -6.5rem;
+  }
+  .pfive {
+    top: -8rem;
+  }
+
+  .pseven {
+    top: -10rem;
+  }
+
+  .pnine {
+    top: -8.5rem;
+  }
+  .pten {
+    top: -8.5rem;
+  }
+
   .HowIBecameMeImg {
     width: 180px;
   }
@@ -138,6 +202,7 @@ img {
   }
   .HowIBecameMeParagraph {
     width: 400px;
+    top: -11rem;
   }
   .HowIBecameMeImg {
     width: 385px;
@@ -158,6 +223,7 @@ img {
   }
   .HowIBecameMeParagraph {
     width: 400px;
+    top: -11rem;
   }
   .HowIBecameMeImg {
     width: 385px;

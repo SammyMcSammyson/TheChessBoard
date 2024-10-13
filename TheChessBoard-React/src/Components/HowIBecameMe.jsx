@@ -72,7 +72,9 @@ export default function HowIBecameMe() {
               </figure>
               {isVisible[index] ? (
                 <div className='HowIBecameMeDescription'>
-                  <p className={`HowIBecameMeParagraph ${event.alignment1}`}>
+                  <p
+                    className={`HowIBecameMeParagraph ${event.alignment1} ${event.className}`}
+                  >
                     {event.description}
                   </p>
                 </div>
