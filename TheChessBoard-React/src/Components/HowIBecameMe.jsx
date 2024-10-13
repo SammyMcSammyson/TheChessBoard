@@ -1,4 +1,14 @@
 import me from '../assets/me.jpeg';
+import Amsterdam from '../assets/Amsterdam.jpg';
+import baller from '../assets/baller.jpg';
+import buisness from '../assets/buisness.jpg';
+import school from '../assets/school.jpg';
+import tea from '../assets/tea.jpg';
+import Uni from '../assets/Uni.jpg';
+import Watermelon from '../assets/Watermelon.jpg';
+import Vimal from '../assets/Vimal.jpg';
+import house from '../assets/house.jpg';
+import divorce from '../assets/divorce.gif';
 import '../css/HowIBecameMe.css';
 import data from '../../public/data.json';
 import { useState } from 'react';
@@ -16,7 +26,18 @@ export default function HowIBecameMe() {
   };
 
   let images = {
-    me, // Mapping keys to actual imported images
+    baller,
+    buisness,
+    school,
+    me,
+    tea,
+    Uni,
+    Vimal,
+    house,
+    Watermelon,
+    Amsterdam,
+    divorce,
+    // Mapping keys to actual imported images
   };
 
   const circleArray = ['22%', '80%', '130%'];
