@@ -6,3 +6,5 @@ Updated the main page so that i have 4 blocks which link to different parts of t
 Editing the articles page need to figure out how I want to set it out. thinking either 2 columns - also need to add some articles etc.
 
 Changed this again and going for some different ideas and taking things from different projects. Sam 03/10/24
+
+Convereted to React and have an idea of where things are goinf. Have elements on Front page need to use media quiers to make sure that it looks decent on desktop. Sam 10/10/24

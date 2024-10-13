@@ -8,7 +8,12 @@
   background-color: orangered; /* Line color */
   z-index: 1; /* Ensure it stays above other content */
 }
-
+img {
+  position: relative;
+  top: 0.5rem;
+  left: 0.4rem;
+  width: 14rem;
+}
 .circle {
   position: absolute;
   left: 50%;

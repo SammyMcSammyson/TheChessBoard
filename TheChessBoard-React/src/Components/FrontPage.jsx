@@ -35,8 +35,8 @@ export default function FrontPage() {
         </div>
         <div className='PictureContainer'>
           <div className='pictureDiv'>
-            <figure onClick={handleClick} className='polaroid'>
-              <img src={me} alt='Polaroid Picture' />
+            <figure onClick={handleClick} className='polaroidFP'>
+              <img src={me} alt='Polaroid Picture' className='imgFP' />
               <figcaption className='meDescription'>
                 Vibes be vibing <br></br> Aug 24
               </figcaption>
@@ -51,10 +51,14 @@ export default function FrontPage() {
           </div>
 
           <div className='pictureDiv secondDiv'>
-            <figure onClick={handleClick2} className='polaroid second'>
-              <img src={flyingtothemoon} alt='Polaroid Picture' />
+            <figure onClick={handleClick2} className='polaroidFP second'>
+              <img
+                src={flyingtothemoon}
+                alt='Polaroid Picture'
+                className='imgFP'
+              />
               <figcaption className='meDescription'>
-                Flying to the Moon <br></br>  Feb 24
+                Flying to the Moon <br></br> Feb 24
               </figcaption>
               {isVisibleFlying ? (
                 <p className='Intro2'>
@@ -67,10 +71,10 @@ export default function FrontPage() {
           </div>
 
           <div className='pictureDiv thirdDiv'>
-            <figure onClick={handleClick3} className='polaroid third'>
-              <img src={ITried} alt='Polaroid Picture' />
+            <figure onClick={handleClick3} className='polaroidFP third'>
+              <img src={ITried} alt='Polaroid Picture' className='imgFP' />
               <figcaption className='meDescription'>
-                Proffesional Debut <br></br>  Jan 23
+                Proffesional Debut <br></br> Jan 23
               </figcaption>
               {isVisibleTried ? (
                 <p className='Intro3'>

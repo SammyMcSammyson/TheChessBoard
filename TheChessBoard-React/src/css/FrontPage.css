@@ -54,7 +54,7 @@
   position: relative;
   top: 15rem;
 }
-.polaroid {
+.polaroidFP {
   /* code for the poloroid */
   position: absolute;
   width: 240px;
@@ -72,7 +72,7 @@
   top: 35rem;
 }
 
-.polaroid::after {
+.polaroidFP::after {
   content: '';
   position: absolute;
   top: -10px;
@@ -83,7 +83,7 @@
   transform: translateX(-50%);
 }
 
-img {
+.imgFP {
   /* code for the image */
   position: relative;
   top: 0.5rem;
